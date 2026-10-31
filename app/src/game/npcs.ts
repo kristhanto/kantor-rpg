@@ -63,7 +63,12 @@ export class NpcLayer {
   private acc = 0;
 
   constructor(private world: World, nav: Record<FloorId, NavGrid>, seed: number, labelHost: HTMLElement) {
-    this.sim = new IdleSim(world, nav, { seed, startHour: 8.75, minutesPerSecond: 1 });
+    // ELSI: simulation clock follows the real Asia/Jakarta clock (1 sim minute per real minute),
+    // so the office day matches WIB instead of the original accelerated 08:45 start.
+    const wibParts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', hour: 'numeric', minute: 'numeric', hour12: false }).formatToParts(new Date());
+    const wibHour = Number(wibParts.find((x) => x.type === 'hour')!.value);
+    const wibMinute = Number(wibParts.find((x) => x.type === 'minute')!.value);
+    this.sim = new IdleSim(world, nav, { seed, startHour: wibHour + wibMinute / 60, minutesPerSecond: 1 / 60 });
     this.group.name = 'npcs';
     // Own layer: room labels are rebuilt on floor change and must not wipe these.
     const host = document.createElement('div');

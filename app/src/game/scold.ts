@@ -25,11 +25,11 @@ export const IMPACT_WORD: Record<ScoldProp, string> = { gulungan: 'PLAK!', palu:
 
 /** One line per persona, in character. Indonesian source; t() translates. */
 export const SCOLD_LINES: Record<string, string[]> = {
-  'ACT-MAX': ['Siap, Pak! Saya rapikan antreannya sekarang.', 'Aduh. Oke, kembali koordinasi.'],
-  'ACT-HUGO': ['Aduh, penggaris saya! Balik ke denah.', 'Iya, iya, gambarnya saya lanjutkan.'],
-  'ACT-NOVA': ['Sinyal diterima, Pak. Balik ke desain jaringan.', 'Oke, spesifikasinya saya selesaikan.'],
-  'ACT-BRUNO': ['Waduh! Kabelnya saya tarik lagi sekarang.', 'Siap, cek server dulu.'],
-  'ACT-KEVIN': ['Aw! Posternya hampir jadi kok.', 'Oke, kembali ke kanvas.'],
+  'ACT-MAX': ['Siap! Data IDX ETP saya ambil sekarang.', 'Oke, datanya saya cek lagi.'],
+  'ACT-HUGO': ['Siap, hitungannya saya lanjutkan.', 'Iya, yield dan repo rate saya hitung ulang.'],
+  'ACT-NOVA': ['Siap, rekapnya saya tulis lagi.', 'Oke, tabelnya saya rapikan.'],
+  'ACT-BRUNO': ['Siap, auditnya saya jalankan.', 'Oke, checklistnya saya periksa satu per satu.'],
+  'ACT-KEVIN': ['Siap, pengirimannya saya siapkan.', 'Oke, rekapnya saya kirim tepat waktu.'],
   'ACT-REX': ['Teguran diterima. Status: kembali kerja.', 'Bug ditemukan: saya. Diperbaiki.'],
   'ACT-ECHO': ['Eh, iya! Catatannya saya lanjutkan.', 'Maaf, Pak. Langsung kerja.'],
   'ACT-LEO': ['Aduh, ide saya buyar! Balik ke meja.', 'Oke, desainnya saya kejar.'],

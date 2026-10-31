@@ -431,7 +431,7 @@
   {
    "id": "L1-IMPL",
    "floor": "L1",
-   "name": "Ruang implementasi & review",
+   "name": "Kantor KRISnDEE",
    "category": "work",
    "access": "staff",
    "noise": "moderate",
@@ -9320,7 +9320,7 @@
  "actors": [
   {
    "id": "ACT-BUDI",
-   "displayName": "Budi",
+   "displayName": "Kris",
    "role": "CEO",
    "kind": "player",
    "avatarAsset": "CH-CEO",
@@ -9334,17 +9334,16 @@
   },
   {
    "id": "ACT-MAX",
-   "displayName": "Max",
-   "role": "Supervisor",
+   "displayName": "Dita",
+   "role": "ARA · Data",
    "kind": "npc",
    "avatarAsset": "CH-SUPERVISOR",
    "homeRoom": "L1-IMPL",
    "rolePreference": {
     "desk": 3,
     "read": 2,
-    "chat": 2,
-    "coffee": 1,
-    "billiards": 1
+    "chat": 1,
+    "coffee": 1
    },
    "allowedPublicFields": [
     "displayName",
@@ -9356,103 +9355,16 @@
   },
   {
    "id": "ACT-HUGO",
-   "displayName": "Hugo",
-   "role": "Karakter, aset & arsitektur",
+   "displayName": "Raka",
+   "role": "ELSI · Hitung",
    "kind": "npc",
    "avatarAsset": "CH-ARCHITECT",
-   "homeRoom": "L1-HUGO",
-   "rolePreference": {
-    "desk": 3,
-    "read": 2,
-    "rest": 1,
-    "game": 1,
-    "coffee": 1
-   },
-   "allowedPublicFields": [
-    "displayName",
-    "role",
-    "activityState"
-   ],
-   "homeSeat": "FX-L1-090",
-   "simulated": true
-  },
-  {
-   "id": "ACT-NOVA",
-   "displayName": "Nova",
-   "role": "Spesifikasi ICT",
-   "kind": "npc",
-   "avatarAsset": "CH-ICTSPEC",
-   "homeRoom": "L1-NOVA",
-   "rolePreference": {
-    "desk": 3,
-    "read": 3,
-    "coffee": 1,
-    "stretch": 1,
-    "exercise": 1
-   },
-   "allowedPublicFields": [
-    "displayName",
-    "role",
-    "activityState"
-   ],
-   "homeSeat": "FX-L1-070",
-   "simulated": true
-  },
-  {
-   "id": "ACT-BRUNO",
-   "displayName": "Bruno",
-   "role": "Instalasi jaringan & server",
-   "kind": "npc",
-   "avatarAsset": "CH-NETINSTALL",
-   "homeRoom": "L1-BRUNO",
-   "rolePreference": {
-    "desk": 3,
-    "exercise": 2,
-    "billiards": 2,
-    "coffee": 1
-   },
-   "allowedPublicFields": [
-    "displayName",
-    "role",
-    "activityState"
-   ],
-   "homeSeat": "FX-L1-104",
-   "simulated": true
-  },
-  {
-   "id": "ACT-KEVIN",
-   "displayName": "Kevin",
-   "role": "Pamflet & materi visual",
-   "kind": "npc",
-   "avatarAsset": "CH-VISUAL",
-   "homeRoom": "L1-KEVIN",
-   "rolePreference": {
-    "desk": 3,
-    "read": 1,
-    "game": 2,
-    "chat": 2,
-    "rest": 1
-   },
-   "allowedPublicFields": [
-    "displayName",
-    "role",
-    "activityState"
-   ],
-   "homeSeat": "FX-L1-097",
-   "simulated": true
-  },
-  {
-   "id": "ACT-REX",
-   "displayName": "Rex",
-   "role": "Review & QA",
-   "kind": "npc",
-   "avatarAsset": "CH-QA",
    "homeRoom": "L1-IMPL",
    "rolePreference": {
-    "desk": 4,
-    "read": 1,
-    "coffee": 2,
-    "game": 1
+    "desk": 3,
+    "chat": 2,
+    "coffee": 1,
+    "read": 1
    },
    "allowedPublicFields": [
     "displayName",
@@ -9463,18 +9375,17 @@
    "simulated": true
   },
   {
-   "id": "ACT-ECHO",
-   "displayName": "Echo",
-   "role": "Asisten 9router",
+   "id": "ACT-NOVA",
+   "displayName": "Sari",
+   "role": "Si JAPAD · Tulis",
    "kind": "npc",
-   "avatarAsset": "CH-ASSISTANT",
+   "avatarAsset": "CH-ICTSPEC",
    "homeRoom": "L1-IMPL",
    "rolePreference": {
     "desk": 3,
     "read": 2,
     "chat": 2,
-    "coffee": 1,
-    "billiards": 1
+    "coffee": 1
    },
    "allowedPublicFields": [
     "displayName",
@@ -9485,25 +9396,45 @@
    "simulated": true
   },
   {
-   "id": "ACT-LEO",
-   "displayName": "Leo",
-   "role": "Desain",
+   "id": "ACT-BRUNO",
+   "displayName": "Budi",
+   "role": "Audit Semua Proyek",
    "kind": "npc",
-   "avatarAsset": "CH-DESIGNER",
-   "homeRoom": "L1-KEVIN",
+   "avatarAsset": "CH-NETINSTALL",
+   "homeRoom": "L1-IMPL",
    "rolePreference": {
     "desk": 3,
-    "read": 2,
+    "read": 3,
     "chat": 1,
-    "game": 1,
-    "rest": 1
+    "coffee": 1
    },
    "allowedPublicFields": [
     "displayName",
     "role",
     "activityState"
    ],
-   "homeSeat": "FX-L1-099",
+   "homeSeat": "FX-L1-060",
+   "simulated": true
+  },
+  {
+   "id": "ACT-KEVIN",
+   "displayName": "Maya",
+   "role": "Kirim Semua Proyek",
+   "kind": "npc",
+   "avatarAsset": "CH-VISUAL",
+   "homeRoom": "L1-IMPL",
+   "rolePreference": {
+    "desk": 3,
+    "chat": 2,
+    "coffee": 1,
+    "read": 1
+   },
+   "allowedPublicFields": [
+    "displayName",
+    "role",
+    "activityState"
+   ],
+   "homeSeat": "FX-L1-062",
    "simulated": true
   }
  ],
