@@ -4,7 +4,7 @@
 #
 # CARA PAKAI (baca dulu sampai habis sebelum menjalankan):
 #   1. Buka konsol Sumopod VPS sebagai user ubuntu.
-#   2. Unduh skrip ini, lalu jalankan:  bash deploy-office-krisndee.sh
+#   2. Unduh skrip ini, lalu jalankan:  bash deploy-vps.sh
 #   3. Perintah sudo di dalam skrip akan meminta password ubuntu SEKALI
 #      (diketik di konsolmu sendiri, tidak dikirim ke siapa pun).
 #   4. Setelah skrip selesai, jalankan perintah setup owner yang dicetak
