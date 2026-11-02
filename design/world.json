@@ -3193,6 +3193,16 @@
    "collider": true,
    "family": "furniture"
   },
+  "monitor": {
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "label": "Monitor PC",
+   "collider": false,
+   "family": "ict"
+  },
   "chair": {
    "size": [
     0.6,
@@ -7595,6 +7605,272 @@
     2.0
    ],
    "collider": true
+  },
+  {
+   "id": "FX-L1-111",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    7.65,
+    13.45
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-053"
+  },
+  {
+   "id": "FX-L1-112",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    8.35,
+    13.45
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-053"
+  },
+  {
+   "id": "FX-L1-113",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    7.65,
+    16.2
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-055"
+  },
+  {
+   "id": "FX-L1-114",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    8.35,
+    16.2
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-055"
+  },
+  {
+   "id": "FX-L1-115",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    9.25,
+    13.45
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-057"
+  },
+  {
+   "id": "FX-L1-116",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    9.95,
+    13.45
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-057"
+  },
+  {
+   "id": "FX-L1-117",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    9.25,
+    16.2
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-059"
+  },
+  {
+   "id": "FX-L1-118",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    9.95,
+    16.2
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-059"
+  },
+  {
+   "id": "FX-L1-119",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    10.85,
+    13.45
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-061"
+  },
+  {
+   "id": "FX-L1-120",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    11.55,
+    13.45
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-061"
+  },
+  {
+   "id": "FX-L1-121",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    10.85,
+    16.2
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-063"
+  },
+  {
+   "id": "FX-L1-122",
+   "floor": "L1",
+   "room": "L1-IMPL",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    11.55,
+    16.2
+   ],
+   "rot": 0,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-063"
+  },
+  {
+   "id": "FX-L1-123",
+   "floor": "L1",
+   "room": "L1-CEO",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    3.15,
+    21.95
+   ],
+   "rot": 180,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-082"
+  },
+  {
+   "id": "FX-L1-124",
+   "floor": "L1",
+   "room": "L1-CEO",
+   "type": "monitor",
+   "asset": "AST-MONITOR",
+   "pos": [
+    3.85,
+    21.95
+   ],
+   "rot": 180,
+   "size": [
+    0.55,
+    0.05,
+    0.46
+   ],
+   "collider": false,
+   "pairedWith": "FX-L1-082"
   }
  ],
  "activitySlots": [

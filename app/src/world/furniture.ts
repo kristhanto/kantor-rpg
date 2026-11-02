@@ -126,6 +126,16 @@ export function buildFixture(fx: Fixture): Part[] {
       if (fx.type === 'desk_exec') cyl(0.06, 0.05, 0.12, w * 0.35, h, 0, ENV.white, 10);
       break;
     }
+    case 'monitor': {
+      // PC monitor standing on a desk top (desk height 0.75): base + neck +
+      // screen body with a glowing face on both sides (box, so the seated
+      // user and anyone opposite both see the lit screen).
+      box(0.22, 0.02, 0.16, 0, 0.75, 0, ENV.metal, 0.008);
+      box(0.05, 0.14, 0.04, 0, 0.77, 0, ENV.metal, 0.01);
+      box(0.55, 0.34, 0.03, 0, 0.91, 0, ENV.screen, 0.015);
+      box(0.51, 0.30, 0.01, 0, 0.93, 0.02, ENV.screenGlow, 0, { emissive: true });
+      break;
+    }
     case 'chair': chairShape(w, d, h, ENV.fabricGreen, ENV.metal); break;
     case 'chair_guest': chairShape(w, d, h, ENV.fabricSage, ENV.woodDark); break;
     case 'stool': chairShape(w, d, h, ENV.fabricTerracotta, ENV.woodDark, false); break;
